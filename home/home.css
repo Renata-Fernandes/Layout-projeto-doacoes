@@ -1,0 +1,599 @@
+/*Cabeçalho*/
+
+.body{
+	max-width: 100%;
+}
+.container { 
+	max-width: 80%;;
+}
+.logo { 
+	width:125px;
+	height:125px;
+	position:absolute;
+	left:17px;
+	top:16px;	
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.nav-bar{
+	float:left;
+	text-align: center;
+	text-decoration: none;
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+}
+.nav-bar a{
+	text-decoration: none;
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+}
+.nav-bar a:hover{
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+}
+.doar { 
+	text-decoration: none;
+	display: block; 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:161px;
+	height:45px;
+	position:absolute;
+	left:235px;
+	top:56px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+}
+.receber { 
+	text-decoration: none;
+	display: block; 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:161px;
+	height:45px;
+	position:absolute;
+	left:508px;
+	top:56px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+}
+.sobre { 
+	text-decoration: none;
+	display: block; 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:162px;
+	height:45px;
+	position:absolute;
+	left:781px;
+	top:56px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+}
+.ei205_2398_46_74_46_70 { 	
+	width:217px;
+	height:77px;
+	position:absolute;
+	left:1055px;
+	top:40px;
+}
+.ei205_2398_46_74_46_70_46_35 { 
+	box-shadow:8px 8px 30px rgba(255,250,250);
+	background-color:rgba(232, 216, 183, 0.79);
+	width:158px;
+	height:35px;
+	position:absolute;
+	left:5.5px;
+	top:16px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+}
+.i205_2398_46_74_46_70_46_35 { 
+	border:1px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1)1px solid rgba(0, 0, 0, 1);
+}
+.botao_cadastre { 	
+	text-decoration: none;
+	display: block; 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:143px;
+	height:64px;
+	position:absolute;
+	left:8px;
+	top:3px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+}
+
+/* texto chamada */
+
+.texto-chamada { 
+	width:1285px;
+	height:611px;
+	position:absolute;
+	left:32px;
+	top:237px;
+}
+.ei205_2399_46_177 { 
+	width:1285px;
+	height:611px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.espacamento-imagem { 
+	width:572px;
+	height:611px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.chamada { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:553px;
+	height:145px;
+	position:absolute;
+	left:8px;
+	top:8px;
+	font-family:Niramit;
+	text-align:left;
+	font-size:59px;
+	letter-spacing:0;	
+}
+.descricao { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:553px;
+	height:236px;
+	position:absolute;
+	left:8px;
+	top:233px;
+	font-family:Niramit;
+	text-align:justify;
+	font-size:24px;
+	letter-spacing:0;
+	line-height:px;
+}
+.ei205_2399_46_177_46_171 { 
+	width:191px;
+	height:42px;
+	position:absolute;
+	left:8px;
+	top:529px;
+	align-items: center;
+}
+.saiba-mais { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:158px;
+	height:42px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Niramit;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+	line-height:px;
+}
+.ei205_2399_46_177_46_173 { 
+	width:38.81261444091797px;
+	height:38.81261444091797px;
+	position:absolute;
+	left:119.18738555908203px;
+	top:8px;
+	align-items: center;
+}
+.seta-rosa { 	
+	width:80px;
+	height:30px;
+	position:absolute;
+	left:-10px;
+	top: 0px;
+	align-items: center;
+}
+.imagem-top { 
+	box-shadow:-15px -15px 30px rgba(232.00000137090683, 216.00001752376556, 183.00000429153442, 1);
+	width:645px;
+	height:454px;
+	position:absolute;
+	left:640px;
+	top:78.5px;
+	background-image:url(images/rectangle_4.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*frase de efeito*/
+
+.frase-efeito { 
+	width:657px;
+	height:576px;
+	position:absolute;
+	left:396px;
+	top:928px;
+}
+.imagem-fundo { 
+	width:300px;
+	height:142px;
+	position:absolute;
+	left:-38px;
+	top:330px;
+	opacity: 0.9;	
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.frase { 
+	box-shadow:-15px -15px 30px rgba(232.00000137090683, 216.00001752376556, 183.00000429153442, 1);
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:450px;
+	height:351px;
+	position:absolute;
+	left:28.5px;
+	top:58px;
+	font-family:Niramit;
+	text-align:center;
+	font-size:35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	letter-spacing:0;
+}
+.e205_2403 { 
+	width:426px;
+	height:10px;
+	position:absolute;
+	left:0px;
+	top:1500px;
+}
+.passo-a-passo { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:250px;
+	height:30px;
+	position:absolute;
+	left:38px;
+	top:0px;
+	font-family:Niramit;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;	
+}
+.fluxo{
+	width:950px;
+	height:600px;
+	position:absolute;	
+	left:250px;
+	top:-70px;	
+	display: block;	
+	margin-bottom: auto;
+}
+
+/*Descritivo de como doar*/
+
+.espacamento-para-doar { 
+	width:1478.9080810546875px;
+	height:1000px;
+	position:absolute;
+	left:-28px;
+	top:1934px;	
+}
+.ei205_2422_46_315 { 
+	width:1478.9080810546875px;
+	height:632px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei205_2422_46_315_46_313 { 
+	width:1302.9080810546875px;
+	height:616px;
+	position:absolute;
+	left:50px;
+	top:8px;
+}
+.ei205_2422_46_315_46_312 { 
+	width:774.9080810546875px;
+	height:616px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei205_2422_46_315_46_310 { 
+	width:774.9080810546875px;
+	height:60px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei205_2422_46_315_46_306 { 
+	width:775px;
+	height:38px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.para-doar { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:359.45404052734375px;
+	height:39px;
+	position:absolute;
+	left:16px;
+	top:0px;
+	font-family:Hind Siliguri;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.para-receber { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 0.5);
+	width:359.45404052734375px;
+	height:39px;
+	position:absolute;
+	left:375.45404052734375px;
+	top:0px;
+	font-family:Hind Siliguri;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.ei205_2422_46_315_46_309 { 
+	width:774.9080810546875px;
+	height:25px;
+	position:absolute;
+	left:0px;
+	top:35px;
+}
+.linha { 
+	background-color:rgba(232.00000137090683, 216.00000232458115, 183.00000429153442, 1);
+	width:754.9080810546875px;
+	height:3px;
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+.ei205_2422_46_315_46_302 { 
+	width:163px;
+	height:0px;
+	position:absolute;
+	left:0.5018081665039062px;
+	top:5px;
+}
+.como-doar { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:755px;
+	height:540px;
+	position:absolute;
+	left:9.95404052734375px;
+	top:76px;
+	text-align:justified;
+	font-size:20px;
+	letter-spacing:0;
+}
+.imagem-latas { 
+	width:484px;
+	height:454px;
+	position:absolute;
+	left:818.9080810546875px;
+	top:81px;	
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*produtos*/
+
+.alinhamento-produtos { 
+	width:1404px;
+	height:375px;
+	position:absolute;
+	left:-50px;
+	top:2501px;
+}
+.e205_2424 { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:418px;
+	height:35px;
+	position:absolute;
+	left:88px;
+	top:0px;
+	font-family:Hind Siliguri;
+	text-align:justified;
+	font-size:28px;
+	letter-spacing:0;
+}
+.sombra-produtos { 	
+	width:1000px;
+	height:100px;
+	position:absolute;
+	left:55px;
+	margin-right: 20px;	
+	top:1px;
+}
+.pic{
+    height: 200px;
+    width: 200px;
+    object-fit:fill;      
+    display: inline;    
+    margin: 20px;   
+    text-align: center;    
+}
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+  object-fit: fill;
+  display: flex;  
+}
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+.pic-ctn {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  margin-top: 15vh;
+}
+.pic-ctn > img {
+  position:static;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 5s infinite;
+}
+img:nth-child(2) {
+  animation-delay: 1s;
+}
+img:nth-child(3) {
+  animation-delay: 2s;
+}
+img:nth-child(4) {
+  animation-delay: 3s;
+}
+img:nth-child(5) {
+  animation-delay: 4s;
+}
+
+/*área de atuação*/
+
+.e205_2431 { 
+	width:1404px;
+	height:335px;
+	position:absolute;
+	left:0px;
+	top:2851px;
+}
+.e205_2431 a{
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	text-decoration: none;
+}
+.e205_2431 a:hover{
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	text-decoration: none;
+}
+.area-atuacao { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:238px;
+	height:39px;
+	position:absolute;
+	left:50px;
+	top:80px;
+	font-family:Hind Siliguri;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.mapa { 	
+	position:absolute;
+	left: 160px;
+	top: 200px;		
+}
+
+/*rodapé*/
+
+.footer { 
+	width:1442px;
+	height:195px;
+	position:absolute;
+	left:0px;
+	top:3659px;
+}
+.footer a{
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	text-decoration: none;
+}
+.footer a:hover{
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	text-decoration: none;
+}
+.e205_2435 { 
+	width:229px;
+	height:195px;
+	position:absolute;
+	left:50px;
+	top:0px;
+}
+.creditos { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:229px;
+	height:200px;
+	position:absolute;
+	left:30px;
+	top:136px;
+	font-family:Niramit;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.e205_2438 { 
+	width:292px;
+	height:145px;
+	position:absolute;
+	left:573px;
+	top:25px;
+	text-decoration: none;
+}
+.e205_2438 a{ 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	text-decoration: none;
+}
+.e205_2438 a:hover{ 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	text-decoration: none;
+}
+.sobre-rodape { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:233px;
+	height:49px;
+	position:absolute;
+	left:29.5px;
+	top:40px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+	text-decoration: none;
+}
+.termos { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:292px;
+	height:72px;
+	position:absolute;
+	left:0px;
+	top:80px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+	text-decoration: none;
+}
+.contato { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:233px;
+	height:50px;
+	position:absolute;
+	left:1000px;
+	top:72.5px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+	text-decoration: none;
+}

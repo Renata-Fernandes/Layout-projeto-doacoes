@@ -1,0 +1,43 @@
+.config-conteudo {
+	width: 659px;
+	height: 765px;
+	position: absolute;
+	left: 367px;
+	top: 0px;
+}
+.abelha-gif {
+	width: 500px;
+	height: 264.0499572753906px;
+	position: absolute;
+	left: 79.5px;
+	top: 236.9750213623047px;
+	background-image: url(images/abelha_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.texto {
+	color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width: 493px;
+	height: 39px;
+	position: absolute;
+	left: 83px;
+	top: 529.0249633789062px;
+	font-family: Hind Siliguri;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 2px;
+	animation: loadingJ 2.0s infinite;
+}
+@keyframes loadingJ {
+
+	0%,
+	100% {
+		transform: translate(0, 0);
+	}
+
+	50% {
+		transform: translate(35px, 0);
+		background-color: rgba(232.00000137090683, 216.00000232458115, 183.00000429153442, 1);
+		;
+	}
+}

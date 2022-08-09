@@ -1,167 +1,153 @@
 /*Cabeçalho*/
 
-.body{
-	max-width: 100%;
+@import url(font.css);
+
+* {
+    margin: 0;
+    padding: 0;    
 }
-.container { 
-	max-width: 80%;;
+a {
+    text-decoration: none;
 }
-.logo { 
-	width:125px;
-	height:125px;
-	position:absolute;
-	left:17px;
-	top:16px;	
-	background-repeat:no-repeat;
-	background-size:cover;
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
 }
-.nav-bar{
-	float:left;
-	text-align: center;
-	text-decoration: none;
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+.name-tag {
+    margin-left: 220px;
+    text-align: center;
+    margin-top: -100px;
+    font-family:Hind Siliguri;
+    font-size:15px;
 }
-.nav-bar a{
-	text-decoration: none;
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Header */
+.header {
+    display:block;
+    padding-left: 30px;
+    align-items: center;   
+    position:absolute;
+    margin-top: 20px;
+
 }
-.nav-bar a:hover{
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+.nav-links li {
+    list-style: none;
 }
-.doar { 
-	text-decoration: none;
-	display: block; 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:161px;
-	height:45px;
-	position:absolute;
-	left:235px;
-	top:56px;
-	font-family:Hind Siliguri;
-	text-align:center;
-	font-size:18px;
-	letter-spacing:0;
+.nav-links ul {
+    display: flex;    
 }
-.receber { 
-	text-decoration: none;
-	display: block; 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:161px;
-	height:45px;
-	position:absolute;
-	left:508px;
-	top:56px;
-	font-family:Hind Siliguri;
-	text-align:center;
-	font-size:18px;
-	letter-spacing:0;
+.nav-links ul li {
+    margin-right: 0px;
 }
-.sobre { 
-	text-decoration: none;
-	display: block; 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:162px;
-	height:45px;
-	position:absolute;
-	left:781px;
-	top:56px;
-	font-family:Hind Siliguri;
-	text-align:center;
-	font-size:18px;
-	letter-spacing:0;
+.nav-links ul li a {
+    font-size: 12px;    
+    display: flex;
+    color: #4e3123;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:Hind Siliguri;
+    font-size:15px;
+    letter-spacing: 0.15em;
 }
-.ei205_2398_46_74_46_70 { 	
-	width:217px;
-	height:77px;
-	position:absolute;
-	left:1055px;
-	top:40px;
+.nav-links p:after {
+    bottom: -5px;    
+    content: "";
+    display: block;
+    border-radius: 10px;
+    height: 2px;
+    left: 0;
+    position: relative;
+    background: #fdb018;
+    transition: 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+    opacity: 0;
 }
-.ei205_2398_46_74_46_70_46_35 { 
-	box-shadow:8px 8px 30px rgba(255,250,250);
+.nav-links a:hover p:after {
+    opacity: 1;
+    width: 100%;
+    left: 0;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Botão cadastre-se*/
+.cadastre {
+    position:static;
+    display:block;
+    right: 100px;
+    margin: 0;
+    height: 0%;
+    align-items: center;
+    margin-top: -100px;
+    width: 100px;
+    margin-left: -80px;
+    font-family:Hind Siliguri;
+    font-size:15px;    
+} 
+.cadastre:hover {
+    display:block;
+}
+.nav-links li button{
+    box-shadow:8px 8px 30px rgba(255,250,250);
 	background-color:rgba(232, 216, 183, 0.79);
-	width:158px;
-	height:35px;
-	position:absolute;
-	left:5.5px;
-	top:16px;
-	border-top-left-radius:12px;
+    border-top-left-radius:12px;
 	border-top-right-radius:12px;
 	border-bottom-left-radius:12px;
 	border-bottom-right-radius:12px;
-}
-.i205_2398_46_74_46_70_46_35 { 
-	border:1px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1)1px solid rgba(0, 0, 0, 1);
-}
-.botao_cadastre { 	
-	text-decoration: none;
-	display: block; 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:143px;
-	height:64px;
-	position:absolute;
-	left:8px;
-	top:3px;
-	font-family:Hind Siliguri;
-	text-align:center;
-	font-size:18px;
-	letter-spacing:0;
+    border:1px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1)
 }
 
 /* texto chamada */
 
 .texto-chamada { 
-	width:1285px;
-	height:611px;
+	width:900px;
+	height:400px;
 	position:absolute;
-	left:32px;
+	left:80px;
 	top:237px;
 }
 .ei205_2399_46_177 { 
-	width:1285px;
-	height:611px;
+	height:311px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
 .espacamento-imagem { 
-	width:572px;
-	height:611px;
+	width:372px;
+	height:211px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
 .chamada { 
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:553px;
+	width:453px;
 	height:145px;
 	position:absolute;
 	left:8px;
 	top:8px;
 	font-family:Niramit;
-	text-align:left;
-	font-size:59px;
+	text-align:center;
+	font-size:30px;
 	letter-spacing:0;	
 }
 .descricao { 
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:553px;
+	width:453px;
 	height:236px;
 	position:absolute;
 	left:8px;
-	top:233px;
+	top:90px;
 	font-family:Niramit;
 	text-align:justify;
-	font-size:24px;
+	font-size:18x;
 	letter-spacing:0;
 	line-height:px;
 }
 .ei205_2399_46_177_46_171 { 
-	width:191px;
 	height:42px;
 	position:absolute;
 	left:8px;
-	top:529px;
+	top:269px;
 	align-items: center;
 }
 .saiba-mais { 
@@ -173,16 +159,15 @@
 	top:0px;
 	font-family:Niramit;
 	text-align:left;
-	font-size:24px;
+	font-size:18px;
 	letter-spacing:0;
 	line-height:px;
 }
-.ei205_2399_46_177_46_173 { 
-	width:38.81261444091797px;
+.ei205_2399_46_177_46_173 { 	
 	height:38.81261444091797px;
 	position:absolute;
-	left:119.18738555908203px;
-	top:8px;
+	left:90px;
+	top:4px;
 	align-items: center;
 }
 .seta-rosa { 	
@@ -195,31 +180,33 @@
 }
 .imagem-top { 
 	box-shadow:-15px -15px 30px rgba(232.00000137090683, 216.00001752376556, 183.00000429153442, 1);
-	width:645px;
-	height:454px;
+	width:445px;
+	height:254px;
 	position:absolute;
 	left:640px;
-	top:78.5px;
+	/*top:58.5px;*/
+	align-items:baseline;
 	background-image:url(images/rectangle_4.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	animation: display 2s normal;
 }
 
 /*frase de efeito*/
 
 .frase-efeito { 
-	width:657px;
+	
 	height:576px;
 	position:absolute;
 	left:396px;
-	top:928px;
+	top:628px;
 }
 .imagem-fundo { 
 	width:300px;
 	height:142px;
 	position:absolute;
 	left:-38px;
-	top:330px;
+	top:230px;
 	opacity: 0.9;	
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -230,40 +217,38 @@
 	width:450px;
 	height:351px;
 	position:absolute;
-	left:28.5px;
-	top:58px;
+	left:28.5px;	
 	font-family:Niramit;
 	text-align:center;
-	font-size:35px;
+	font-size:30px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-top: 40px;
+	padding-top: 60px;
 	letter-spacing:0;
 }
-.e205_2403 { 
-	width:426px;
+.e205_2403 { 	
 	height:10px;
 	position:absolute;
-	left:0px;
-	top:1500px;
+	left:0px;	
+	margin-top: 1150px;
 }
 .passo-a-passo { 
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
 	width:250px;
 	height:30px;
 	position:absolute;
-	left:38px;
+	left:80px;
 	top:0px;
 	font-family:Niramit;
 	text-align:left;
-	font-size:24px;
+	font-size:20px;
 	letter-spacing:0;	
 }
 .fluxo{
 	width:950px;
 	height:600px;
 	position:absolute;	
-	left:250px;
+	left:150px;
 	top:-70px;	
 	display: block;	
 	margin-bottom: auto;
@@ -272,35 +257,36 @@
 /*Descritivo de como doar*/
 
 .espacamento-para-doar { 
-	width:1478.9080810546875px;
-	height:1000px;
+	width:900px;
+	height:800px;
 	position:absolute;
 	left:-28px;
-	top:1934px;	
+	top:1584px;	
+	text-align: justify;
 }
 .ei205_2422_46_315 { 
-	width:1478.9080810546875px;
+	width:900px;
 	height:632px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
 .ei205_2422_46_315_46_313 { 
-	width:1302.9080810546875px;
+	width:900px;
 	height:616px;
 	position:absolute;
-	left:50px;
+	left:80px;
 	top:8px;
 }
 .ei205_2422_46_315_46_312 { 
-	width:774.9080810546875px;
+	width:900px;
 	height:616px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
 .ei205_2422_46_315_46_310 { 
-	width:774.9080810546875px;
+	width:900px;
 	height:60px;
 	position:absolute;
 	left:0px;
@@ -322,7 +308,7 @@
 	top:0px;
 	font-family:Hind Siliguri;
 	text-align:left;
-	font-size:24px;
+	font-size:18px;
 	letter-spacing:0;
 }
 .para-receber { 
@@ -330,23 +316,23 @@
 	width:359.45404052734375px;
 	height:39px;
 	position:absolute;
-	left:375.45404052734375px;
+	left:200px;
 	top:0px;
 	font-family:Hind Siliguri;
 	text-align:left;
-	font-size:24px;
+	font-size:18px;
 	letter-spacing:0;
 }
 .ei205_2422_46_315_46_309 { 
-	width:774.9080810546875px;
+	width:590px;
 	height:25px;
 	position:absolute;
 	left:0px;
-	top:35px;
+	top:20px;
 }
 .linha { 
 	background-color:rgba(232.00000137090683, 216.00000232458115, 183.00000429153442, 1);
-	width:754.9080810546875px;
+	width:590px;
 	height:3px;
 	position:absolute;
 	left:10px;
@@ -358,36 +344,37 @@
 	position:absolute;
 	left:0.5018081665039062px;
 	top:5px;
+	
 }
 .como-doar { 
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:755px;
+	width:590px;
 	height:540px;
 	position:absolute;
 	left:9.95404052734375px;
 	top:76px;
 	text-align:justified;
-	font-size:20px;
+	font-size:18px;
 	letter-spacing:0;
 }
 .imagem-latas { 
 	width:484px;
-	height:454px;
+	height:354px;
 	position:absolute;
-	left:818.9080810546875px;
-	top:81px;	
+	left:700px;
+	top:53px;
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:cover;	
+	animation: display 2s normal;
 }
 
 /*produtos*/
 
-.alinhamento-produtos { 
-	width:1404px;
+.alinhamento-produtos { 	
 	height:375px;
 	position:absolute;
-	left:-50px;
-	top:2501px;
+	left:-20px;
+	top:2090px;
 }
 .e205_2424 { 
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
@@ -398,14 +385,14 @@
 	top:0px;
 	font-family:Hind Siliguri;
 	text-align:justified;
-	font-size:28px;
+	font-size:20px;
 	letter-spacing:0;
 }
 .sombra-produtos { 	
 	width:1000px;
 	height:100px;
 	position:absolute;
-	left:55px;
+	left:80px;
 	margin-right: 20px;	
 	top:1px;
 }
@@ -414,7 +401,7 @@
     width: 200px;
     object-fit:fill;      
     display: inline;    
-    margin: 20px;   
+    margin: 15px;   
     text-align: center;    
 }
 .pic-ctn {
@@ -478,7 +465,7 @@ img:nth-child(5) {
 	height:335px;
 	position:absolute;
 	left:0px;
-	top:2851px;
+	top:2400px;
 }
 .e205_2431 a{
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
@@ -493,107 +480,90 @@ img:nth-child(5) {
 	width:238px;
 	height:39px;
 	position:absolute;
-	left:50px;
+	left:80px;
 	top:80px;
 	font-family:Hind Siliguri;
 	text-align:left;
-	font-size:24px;
+	font-size:20px;
 	letter-spacing:0;
 }
 .mapa { 	
 	position:absolute;
 	left: 160px;
-	top: 200px;		
+	top: 150px;		
 }
 
 /*rodapé*/
 
-.footer { 
-	width:1442px;
-	height:195px;
-	position:absolute;
-	left:0px;
-	top:3659px;
+.footer {
+    display:flexbox;
+    padding-left: 30px;
+    align-items: center;
+    position:absolute;
+    margin-top: 3200px;    
+    font-family:Hind Siliguri;
 }
-.footer a{
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	text-decoration: none;
+.direitos{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: -35px;
 }
-.footer a:hover{
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	text-decoration: none;
+.direitos a{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: -5px;
 }
-.e205_2435 { 
-	width:229px;
-	height:195px;
-	position:absolute;
-	left:50px;
-	top:0px;
+.direitos a:hover{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: -5px;
 }
-.creditos { 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:229px;
-	height:200px;
-	position:absolute;
-	left:30px;
-	top:136px;
-	font-family:Niramit;
-	text-align:left;
-	font-size:14px;
-	letter-spacing:0;
+.footer-links li {
+    list-style: none;
+    text-align: center;
+    align-items: center;
 }
-.e205_2438 { 
-	width:292px;
-	height:145px;
-	position:absolute;
-	left:573px;
-	top:25px;
-	text-decoration: none;
+.footer-links ul {
+    display: flex;    
+    text-align: center;
+    align-items: center;
 }
-.e205_2438 a{ 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	text-decoration: none;
+.footer-links ul li a {
+    margin-right: 30px;
+    margin-left: 180px;
+    margin-top: 20px;
+    display: flex;
+    color: #4e3123;    
+    text-transform: uppercase;
+    font-family:Hind Siliguri;
+    font-size:15px;
+    letter-spacing: 0.15em;
+    text-align: center;   
 }
-.e205_2438 a:hover{ 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	text-decoration: none;
+.termos{
+    text-align: center;  
+    margin-left: 270px;
+    margin-top: -90px;
 }
-.sobre-rodape { 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:233px;
-	height:49px;
-	position:absolute;
-	left:29.5px;
-	top:40px;
-	font-family:Hind Siliguri;
-	text-align:center;
-	font-size:18px;
-	letter-spacing:0;
-	text-decoration: none;
+.sobre {
+    text-align: center;  
+    margin-left: 326px;
+    margin-top: -90px;   
 }
-.termos { 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:292px;
-	height:72px;
-	position:absolute;
-	left:0px;
-	top:80px;
-	font-family:Hind Siliguri;
-	text-align:center;
-	font-size:18px;
-	letter-spacing:0;
-	text-decoration: none;
+.contato {
+    text-align: center;  
+    margin-left: 150px;
+    margin-top: -90px;   
 }
-.contato { 
-	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:233px;
-	height:50px;
-	position:absolute;
-	left:1000px;
-	top:72.5px;
-	font-family:Hind Siliguri;
-	text-align:center;
-	font-size:18px;
-	letter-spacing:0;
-	text-decoration: none;
-}
+
+

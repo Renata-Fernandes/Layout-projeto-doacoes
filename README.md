@@ -120,10 +120,10 @@ https://user-images.githubusercontent.com/102121775/183313959-5e93cf79-f4e2-40dc
 ## Desenvolvedoras 
 <h5>Front-end e Prototipagens</h5>
 
-[<img src="https://avatars.githubusercontent.com/u/102121775?v=4" width=110> <br> <sub>Renata Fernandes</sub>](https://github.com/Renata-Fernandes) |
-| :---: |  
+[<img src="https://avatars.githubusercontent.com/u/102121775?v=4" width=110> <br> <sub>Renata Fernandes</sub>](https://github.com/Renata-Fernandes) | [<img src="https://avatars.githubusercontent.com/u/103332148?v=4" width=115><br><sub>Luísa Almeida</sub>](https://github.com/luisaoalmeida) | [<img src="https://avatars.githubusercontent.com/u/12634138?v=4" width=115><br><sub>Bárbara Lopes</sub>](https://github.com/heybabis) |
+| :---: | :---: | :---: |
 
 <h5>Desenvolvedoras Back-end</h5>
 
-[<img src="https://avatars.githubusercontent.com/u/12634138?v=4" width=115><br><sub>Bárbara Lopes</sub>](https://github.com/heybabis) |  [<img src="https://avatars.githubusercontent.com/u/103332148?v=4" width=115><br><sub>Luísa Almeida</sub>](https://github.com/luisaoalmeida) | [<img src="https://avatars.githubusercontent.com/u/83724563?v=4" width=115><br><sub>Naiana Lima</sub>](https://github.com/NaianaCLima) |  [<img src="https://avatars.githubusercontent.com/u/101458452?v=4" width=115><br><sub>Rosemeire Oliveira</sub>](https://github.com/Meire-Rosa) |
-| :---: | :---: | :---: | :---: |
+[<img src="https://avatars.githubusercontent.com/u/12634138?v=4" width=115><br><sub>Bárbara Lopes</sub>](https://github.com/heybabis) | [<img src="https://avatars.githubusercontent.com/u/83724563?v=4" width=115><br><sub>Naiana Lima</sub>](https://github.com/NaianaCLima) | [<img src="https://avatars.githubusercontent.com/u/101458452?v=4" width=115><br><sub>Rosemeire Oliveira</sub>](https://github.com/Meire-Rosa) |
+| :---: | :---: | :---: |

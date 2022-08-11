@@ -186,7 +186,7 @@ a {
 	left:640px;
 	/*top:58.5px;*/
 	align-items:baseline;
-	background-image:url(images/rectangle_4.png);
+	background-image:url(../imagens/rectangle_4.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	animation: display 2s normal;

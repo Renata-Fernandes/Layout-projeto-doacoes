@@ -1,0 +1,108 @@
+.caixa { 
+	box-shadow:15px 15px 30px rgba(0, 0, 0, 0.25);
+	background-color:rgba(254.00000005960464, 254.00000005960464, 254.00000005960464, 1);
+	width:759px;
+	height:494px;
+	position:absolute;
+	left:278px;
+	top:100px;
+}
+.usuario { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:673px;
+	height:77px;
+	position:absolute;
+	left:15px;
+	top:30px;
+	font-family:Niramit;
+	text-align:center;
+	font-size:45px;
+	letter-spacing:0;
+}
+.primeiro-campo { 
+	width:637px;
+	height:139px;
+	position:absolute;
+	left:180px;
+	top:163px;
+		
+}
+.primeiro-campo p{
+	font-family:Niramit;
+	font-size:16px;
+	color:rgba(232, 216, 183, 0.79);
+}
+.cpf { 
+	color:#4e3123;
+	width:350px;
+	height:20px;
+	position:absolute;
+	left:0px;
+	top:45px;
+	font-family:Niramit;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	background-color: white;	
+	border-top: none white;
+	border-left: none white;
+	border-right: none white;	
+	border-color: rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+}
+.cpf::placeholder{
+	font-family:Niramit;
+	text-align:left;	
+	font-size:14px;
+	color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	
+}
+
+.nav.links { 
+	width:366px;
+	height:212px;
+	position:absolute;
+	left:300px;
+	top:500px;
+	
+}
+
+.entrar { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:130px;
+	height:35px;
+	position:absolute;
+	left:290px;
+	top:300px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+	box-shadow:8px 8px 30px rgba(255,250,250);
+	background-color:rgba(232, 216, 183, 0.79);
+	border: 1px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+	border-radius: 12px;	
+}
+
+
+.cadastre { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:314px;
+	height:58px;
+	position:absolute;
+	left:198px;
+	top:350px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:12px;
+	letter-spacing:0;
+}
+
+.sair { 	
+	width:25px;
+	height:25px;
+	position:absolute;
+	left:493px;
+	top:55px;
+	background-color: white;
+	border: white;	
+}

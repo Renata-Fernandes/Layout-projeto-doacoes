@@ -1,0 +1,56 @@
+.caixa { 
+	box-shadow:15px 15px 30px rgba(0, 0, 0, 0.25);
+	background-color:rgba(254.00000005960464, 254.00000005960464, 254.00000005960464, 1);
+	width:759px;
+	height:494px;
+	position:absolute;
+	left:278px;
+	top:100px;
+}
+.nav-botões { 
+	width:73px;
+	height:250px;
+	position:absolute;
+	left:243px;
+	top:152px;
+	list-style: none;
+	text-decoration: none;
+}
+.nav-botões li{
+	list-style: none;
+}
+.quero-doar { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:673px;
+	height:77px;
+	position:absolute;
+	left:-190px;
+	top:-70px;
+	font-family:Niramit;
+	text-align:center;
+	font-size:45px;
+	letter-spacing:0;	
+	text-decoration: none;
+}
+.quero-receber { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:673px;
+	height:60px;
+	position:absolute;
+	left:-190px;
+	top:50px;
+	font-family:Niramit;
+	text-align:center;
+	font-size:45px;
+	letter-spacing:0;	
+	text-decoration: none;
+}
+.sair { 	
+	width:25px;
+	height:25px;
+	position:absolute;
+	left:353px;
+	top:5px;
+	background-color: white;
+	border: white;	
+}

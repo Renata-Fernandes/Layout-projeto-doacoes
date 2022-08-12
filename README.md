@@ -52,9 +52,9 @@ Centro de distribuição: locais que armazenarão os produtos doados, organizar�
 <h5>Linguagens<h5>
 
 ![HTML5](https://img.shields.io/badge/-HTML5-260B02?style=flat&logo=HTML5)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-260B02?style=flat&logo=CSS)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-260B02?style=flat&logo=javascript)&nbsp;	
-![jquery](https://img.shields.io/badge/-jquery-260B02?style=flat&logo=jquery)&nbsp;
+![CSS3](https://img.shields.io/badge/-CSS3-260B02?style=flat&logo=CSS3)&nbsp;
+![Typescript](https://img.shields.io/badge/-Typescript-260B02?style=flat&logo=Typescript)&nbsp;	
+![Angular](https://img.shields.io/badge/-Angular-260B02?style=flat&logo=Angular)&nbsp;
 ![Java](https://img.shields.io/badge/-Java-260B02?style=flat&logo=java&logoColor=007396)&nbsp;
 
 <h5>Design para prototipação</h5>
@@ -105,7 +105,7 @@ https://user-images.githubusercontent.com/102121775/183310625-fafe4b41-5029-4911
 
 <h5>Desenvolvimento do Front-end</h5>
 
-``HTML`` ``CSS`` 
+``HTML`` ``CSS`` ``Angular`` ``Typescript``
 
 <p align="center">
 :construction:<img src="https://img.shields.io/badge/Status%20do%20projeto-Em desenvolvimento-green"/> :construction:
@@ -120,8 +120,8 @@ https://user-images.githubusercontent.com/102121775/183313959-5e93cf79-f4e2-40dc
 ## Desenvolvedoras 
 <h5>Front-end e Prototipagens</h5>
 
-[<img src="https://avatars.githubusercontent.com/u/102121775?v=4" width=110> <br> <sub>Renata Fernandes</sub>](https://github.com/Renata-Fernandes) | [<img src="https://avatars.githubusercontent.com/u/103332148?v=4" width=115><br><sub>Luísa Almeida</sub>](https://github.com/luisaoalmeida) | [<img src="https://avatars.githubusercontent.com/u/12634138?v=4" width=115><br><sub>Bárbara Lopes</sub>](https://github.com/heybabis) |
-| :---: | :---: | :---: |
+[<img src="https://avatars.githubusercontent.com/u/102121775?v=4" width=110> <br> <sub>Renata Fernandes</sub>](https://github.com/Renata-Fernandes) | [<img src="https://avatars.githubusercontent.com/u/103332148?v=4" width=115><br><sub>Luísa Almeida</sub>](https://github.com/luisaoalmeida) | 
+| :---: | :---: |
 
 <h5>Desenvolvedoras Back-end</h5>
 

@@ -99,7 +99,7 @@ a {
 /* texto chamada */
 
 .texto-chamada { 
-	width:900px;
+	width:700px;
 	height:400px;
 	position:absolute;
 	left:80px;
@@ -245,7 +245,7 @@ a {
 	letter-spacing:0;	
 }
 .fluxo{
-	width:950px;
+	width:850px;
 	height:600px;
 	position:absolute;	
 	left:150px;
@@ -257,7 +257,7 @@ a {
 /*Descritivo de como doar*/
 
 .espacamento-para-doar { 
-	width:900px;
+	width:800px;
 	height:800px;
 	position:absolute;
 	left:-28px;
@@ -265,28 +265,28 @@ a {
 	text-align: justify;
 }
 .ei205_2422_46_315 { 
-	width:900px;
+	width:800px;
 	height:632px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
 .ei205_2422_46_315_46_313 { 
-	width:900px;
+	width:800px;
 	height:616px;
 	position:absolute;
 	left:80px;
 	top:8px;
 }
 .ei205_2422_46_315_46_312 { 
-	width:900px;
+	width:800px;
 	height:616px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
 .ei205_2422_46_315_46_310 { 
-	width:900px;
+	width:800px;
 	height:60px;
 	position:absolute;
 	left:0px;
@@ -301,7 +301,7 @@ a {
 }
 .para-doar { 
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
-	width:359.45404052734375px;
+	width:500px;
 	height:39px;
 	position:absolute;
 	left:16px;
@@ -313,7 +313,7 @@ a {
 }
 .para-receber { 
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 0.5);
-	width:359.45404052734375px;
+	width:500px;
 	height:39px;
 	position:absolute;
 	left:200px;
@@ -389,7 +389,7 @@ a {
 	letter-spacing:0;
 }
 .sombra-produtos { 	
-	width:1000px;
+	width:800px;
 	height:100px;
 	position:absolute;
 	left:80px;
@@ -461,7 +461,7 @@ img:nth-child(5) {
 /*área de atuação*/
 
 .e205_2431 { 
-	width:1404px;
+	width:800px;
 	height:335px;
 	position:absolute;
 	left:0px;

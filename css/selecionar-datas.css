@@ -1,0 +1,399 @@
+/*Cabeçalho*/
+* {
+    margin: 0;
+    padding: 0;    
+}
+a {
+    text-decoration: none;
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+}
+.name-tag {
+    margin-left: 220px;
+    text-align: center;
+    margin-top: -70px;
+    font-family:Hind Siliguri;
+    font-size:14px;
+    width: 110px;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Header */
+.header {
+    display:block;
+    padding-left: 30px;
+    align-items: center;   
+    position:absolute;
+    margin-top: 20px;
+
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links ul {
+    display: flex;    
+}
+.nav-links ul li {
+    margin-right: 0px;
+}
+.nav-links ul li a {
+    font-size: 12px;    
+    display: block;
+    color: #4e3123;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:Hind Siliguri;   
+    letter-spacing: 0.15em;
+	
+}
+.nav-links p:after {
+    bottom: -5px;    
+    content: "";
+    display: block;
+    border-radius: 10px;
+    height: 2px;
+    left: 0;
+    position: relative;
+    background: #fdb018;
+    transition: 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+    opacity: 0;
+}
+.nav-links a:hover p:after {
+    opacity: 1;
+    width: 100%;
+    left: 0;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Botão sair*/
+.botao-sair {
+    position:static;
+    display:block;
+    right: 100px;
+    margin: 0;
+    height: 30px;
+    align-items: center;
+    margin-top: -70px;
+    width: 30px;
+    margin-left: -80px;
+     
+} 
+.botao-sair:hover {
+    display:block;
+}
+
+.caixa {
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);
+    width: 759px;
+    height: 950px;
+    position: absolute;
+    left: 278px;
+    top: 300px;
+}
+
+.usuario {
+    color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+    width: 673px;
+    height: 77px;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    font-family: Niramit;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 0;
+}
+
+/*CALENDARIO*/
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.25em;
+    margin: 0.25em 0;
+    font-family: Hind Siliguri;
+    color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1em;
+    margin: 0.33em 0;
+    font-family: Hind Siliguri;
+    color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    height: 538px;
+    left: 390px;
+    margin: -255px 0 0 -245px;
+    position: absolute;
+    top: 450px;
+    width: 510px;
+    font: 300 100%/1.5em "Lato", sans-serif;
+    margin: 0;
+}
+
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+    text-align: center;
+}
+
+.calendar header {
+    position: relative;
+}
+
+.calendar h2 {
+    text-transform: uppercase;
+}
+
+.calendar thead {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.calendar tbody {
+    color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+}
+
+.calendar tbody td:hover {
+    border: 2px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+}
+
+.calendar td {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: inline-block;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    width: 4em;
+    font-family: Hind Siliguri;
+    color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+    color: rgba(232, 216, 183, 0.79);
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+    border: 2px solid rgba(232, 216, 183, 0.79);
+}
+
+.current-day {
+    background: rgba(232, 216, 183, 0.79);
+    color: gray;
+}
+
+.event {
+    cursor: pointer;
+    position: relative;
+}
+
+.event:after {
+    background: rgba(232, 216, 183, 0.79);
+    border-radius: 50%;
+    bottom: 0.5em;
+    display: block;
+    content: "";
+    height: 0.5em;
+    left: 50%;
+    margin: -0.25em 0 0 -0.25em;
+    position: absolute;
+    width: 0.5em;
+}
+
+.event.current-day:after {
+    background: rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+}
+
+.btn-prev,
+.btn-next {
+    border: 2px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+    border-radius: 50%;
+    color: gray;
+    height: 2em;
+    font-size: 0.75em;
+    line-height: 2em;
+    margin: -1em;
+    position: absolute;
+    top: 50%;
+    width: 2em;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+    background: #cbd1d2;
+    color: #f9f9f9;
+}
+
+.btn-prev {
+    left: 6em;
+}
+
+.btn-next {
+    right: 6em;
+}
+
+/*Horários*/
+.horarios {
+
+    padding-right: 10px;
+    margin-top: 1000px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 500px;
+
+
+}
+
+.horarios ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.hr {
+    font-family: Hind Siliguri;
+    color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+    text-align: center;
+    align-items: center;
+    padding-left: 12px;
+    box-shadow: 8px 8px 30px rgba(255, 250, 250);
+    background-color: rgba(232, 216, 183, 0.79);
+    border: 1px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+    border-radius: 12px;
+}
+
+.horarios2 {
+
+    padding-right: 10px;
+    margin-top: 0px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 20px;
+
+
+}
+
+.horarios2 ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*Botão*/
+
+.nav.links {
+    width: 366px;
+    height: 212px;
+    position: absolute;
+    left: 300px;
+    top: 700px;
+
+}
+
+.entrar {
+    color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    left: 570px;
+    top: 1150px;
+    font-family: Hind Siliguri;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0;
+    box-shadow: 8px 8px 30px rgba(255, 250, 250);
+    background-color: rgba(232, 216, 183, 0.79);
+    border: 1px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+    border-radius: 12px;
+}
+
+
+/*rodapé*/
+
+.footer {
+    display:flexbox;
+    padding-left: 30px;
+    align-items: center;
+    position:absolute;
+    margin-top: 350px;    
+    font-family:Hind Siliguri;	
+}
+.direitos{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: -35px;
+}
+.direitos a{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: -5px;
+}
+.direitos a:hover{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: -5px;
+}
+.footer-links li {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+.footer-links ul {
+    display: flex;    
+    text-align: center;
+    align-items: center;
+}
+.footer-links ul li a {
+    margin-right: 30px;
+    margin-left: 170px;
+    margin-top: 20px;
+    display: flex;
+    color: #4e3123;    
+    text-transform: uppercase;
+    font-family:Hind Siliguri;
+    font-size:15px;
+    letter-spacing: 0.15em;
+    text-align: center;   
+}
+.termos{
+    text-align: center;  
+    margin-left: 270px;
+    margin-top: -90px;
+}
+.sobre {
+    text-align: center;  
+    margin-left: 326px;
+    margin-top: -90px;   
+}
+.contato {
+    text-align: center;  
+    margin-left: 150px;
+    margin-top: -90px;   
+}

@@ -1,0 +1,211 @@
+/*Cabeçalho*/
+* {
+    margin: 0;
+    padding: 0;    
+}
+a {
+    text-decoration: none;
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+}
+.name-tag {
+    margin-left: 220px;
+    text-align: center;
+    margin-top: -70px;
+    font-family:Hind Siliguri;
+    font-size:14px;
+    width: 110px;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Header */
+.header {
+    display:block;
+    padding-left: 30px;
+    align-items: center;   
+    position:absolute;
+    margin-top: 20px;
+
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links ul {
+    display: flex;    
+}
+.nav-links ul li {
+    margin-right: 0px;
+}
+.nav-links ul li a {
+    font-size: 12px;    
+    display: block;
+    color: #4e3123;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:Hind Siliguri;   
+    letter-spacing: 0.15em;
+	
+}
+.nav-links p:after {
+    bottom: -5px;    
+    content: "";
+    display: block;
+    border-radius: 10px;
+    height: 2px;
+    left: 0;
+    position: relative;
+    background: #fdb018;
+    transition: 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+    opacity: 0;
+}
+.nav-links a:hover p:after {
+    opacity: 1;
+    width: 100%;
+    left: 0;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Botão sair*/
+.botao-sair {
+    position:static;
+    display:block;
+    right: 100px;
+    margin: 0;
+    height: 30px;
+    align-items: center;
+    margin-top: -70px;
+    width: 30px;
+    margin-left: -80px;
+     
+} 
+.botao-sair:hover {
+    display:block;
+}
+
+.caixa { 
+	box-shadow:15px 15px 30px rgba(0, 0, 0, 0.25);
+	background-color:rgba(254.00000005960464, 254.00000005960464, 254.00000005960464, 1);
+	width:759px;
+	height:510px;
+	position:absolute;
+	left:278px;
+	top:170px;
+}
+.usuario { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:673px;
+	height:77px;
+	position:absolute;
+	left:15px;
+	top:30px;
+	font-family:Niramit;
+	text-align:center;
+	font-size:45px;
+	letter-spacing:0;
+}
+
+.cadastre { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:314px;
+	height:58px;
+	position:absolute;
+	left:470px;
+	top:320px;
+	font-family:Hind Siliguri;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:2;
+}
+
+
+.botao-proximo{
+    color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width: 190px;
+	height: 35px;
+	position: absolute;
+	left: 540px;
+	top: 520px;
+	font-family: Hind Siliguri;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0;
+	box-shadow: 8px 8px 30px rgba(255, 250, 250);
+	background-color: rgba(232, 216, 183, 0.79);
+	border: 1px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+	border-radius: 12px;
+}
+/*rodapé*/
+
+.footer {
+    display:flexbox;
+    padding-left: 30px;
+    align-items: center;
+    position:absolute;
+    margin-top: 670px;    
+    font-family:Hind Siliguri;	
+	 
+}
+.direitos{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: -35px;
+}
+.direitos a{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: -5px;
+}
+.direitos a:hover{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: -5px;
+}
+.footer-links li {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+.footer-links ul {
+    display: flex;    
+    text-align: center;
+    align-items: center;
+}
+.footer-links ul li a {
+    margin-right: 30px;
+    margin-left: 170px;
+    margin-top: 20px;
+    display: flex;
+    color: #4e3123;    
+    text-transform: uppercase;
+    font-family:Hind Siliguri;
+    font-size:15px;
+    letter-spacing: 0.15em;
+    text-align: center;   
+}
+.termos{
+    text-align: center;  
+    margin-left: 270px;
+    margin-top: -90px;
+}
+.sobre {
+    text-align: center;  
+    margin-left: 326px;
+    margin-top: -90px;   
+}
+.contato {
+    text-align: center;  
+    margin-left: 150px;
+    margin-top: -90px;   
+}

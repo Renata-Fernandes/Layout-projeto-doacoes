@@ -1,7 +1,5 @@
 /*Cabeçalho*/
 
-@import url(font.css);
-
 * {
     margin: 0;
     padding: 0;    
@@ -29,7 +27,6 @@ a {
     align-items: center;   
     position:absolute;
     margin-top: 20px;
-
 }
 .nav-links li {
     list-style: none;
@@ -184,9 +181,8 @@ a {
 	height:254px;
 	position:absolute;
 	left:640px;
-	/*top:58.5px;*/
-	align-items:baseline;
-	background-image:url(../imagens/rectangle_4.png);
+	top:58.5px;
+	align-items:baseline;	
 	background-repeat:no-repeat;
 	background-size:cover;
 	animation: display 2s normal;
@@ -565,5 +561,4 @@ img:nth-child(5) {
     margin-left: 150px;
     margin-top: -90px;   
 }
-
 

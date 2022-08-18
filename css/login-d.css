@@ -95,22 +95,21 @@
 }
 
 
-.nav.links { 
+.doador { 
 	width:366px;
 	height:212px;
 	position:absolute;
 	left:300px;
-	top:500px;
-	
+	top:500px;		
 }
 
-.botão-doador { 
+.botao-doador{ 
 	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
 	width:250px;
 	height:35px;
 	position:absolute;
-	left:250px;
-	top:300px;
+	left:210px;
+	top:-70px;
 	font-family:Hind Siliguri;
 	text-align:center;
 	font-size:16px;
@@ -125,8 +124,8 @@
 	width:400px;
 	height:212px;
 	position:absolute;
-	left:250px;
-	top:200px;
+	left:500px;
+	top:330px;
 }
 
 .botão-cd { 
@@ -150,8 +149,8 @@
 	width:314px;
 	height:58px;
 	position:absolute;
-	left:210px;
-	top:400px;
+	left:480px;
+	top:520px;
 	font-family:Hind Siliguri;
 	text-align:center;
 	font-size:12px;

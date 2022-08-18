@@ -1,0 +1,315 @@
+/*Cabeçalho*/
+* {
+    margin: 0;
+    padding: 0;    
+}
+a {
+    text-decoration: none;
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+}
+.name-tag {
+    margin-left: 220px;
+    text-align: center;
+    margin-top: -70px;
+    font-family:Hind Siliguri;
+    font-size:14px;
+    width: 110px;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Header */
+.header {
+    display:block;
+    padding-left: 30px;
+    align-items: center;   
+    position:absolute;
+    margin-top: 20px;
+
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links ul {
+    display: flex;    
+}
+.nav-links ul li {
+    margin-right: 0px;
+}
+.nav-links ul li a {
+    font-size: 12px;    
+    display: block;
+    color: #4e3123;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:Hind Siliguri;   
+    letter-spacing: 0.15em;
+	
+}
+.nav-links p:after {
+    bottom: -5px;    
+    content: "";
+    display: block;
+    border-radius: 10px;
+    height: 2px;
+    left: 0;
+    position: relative;
+    background: #fdb018;
+    transition: 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+    opacity: 0;
+}
+.nav-links a:hover p:after {
+    opacity: 1;
+    width: 100%;
+    left: 0;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Botão sair*/
+.botao-sair {
+    position:static;
+    display:block;
+    right: 100px;
+    margin: 0;
+    height: 30px;
+    align-items: center;
+    margin-top: -70px;
+    width: 30px;
+    margin-left: -80px;
+     
+} 
+.botao-sair:hover {
+    display:block;
+}
+
+.titulos { 
+	width:346px;
+	height:45px;
+	position:absolute;
+	left:80px;
+	top:200px;
+	list-style: none;	
+}
+.titulos ul li{
+	list-style: none;
+}
+.seta-voltar { 
+	width:32px;
+	height:32px;
+	position:absolute;
+	left:0px;
+	top:50px;	
+	background-repeat:no-repeat;
+	background-size:cover;
+	list-style: none;
+	background-color: white;
+	border-color: white;
+}
+.seta-voltar img{
+	width:32px;
+	height:32px;
+}
+.chamada-produtos { 
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width:306px;
+	height:45px;
+	position:absolute;
+	left:64px;
+	top:52px;
+	font-family:Hind Siliguri;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	list-style: none;
+}
+.caminho{
+	
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	font-family: Niramit;
+	font-size: 13px;
+	letter-spacing: 1px;
+	list-style: none;	
+	position:relative;
+	top: 300px;
+	left: 80px;
+   
+}
+.caminho ul li{
+	list-style: none;		
+	display: inline-block;
+	text-align: justify;
+	align-items: center;
+}
+.seta{
+	width:25px;
+	height:25px;
+	display: inline-block;
+	left:0px;
+	top:50px;	
+	background-repeat:no-repeat;
+	background-size:cover;
+	list-style: none;
+	background-color: white;
+	border-color: white;
+	
+}
+.produtos {	
+	display: inline-block;
+	position: relative;
+	left: 270px
+}
+.produtos1 {
+	border-radius: 5px;
+	align-items: center;
+	margin-top: 450px;
+}
+.produtos1 div img {
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+	align-items: center;
+	display: inline-block;
+	padding-left: 40px;
+	
+}
+.legenda {
+	align-items: center;
+	display: inline-block;
+	color:rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	font-family: Niramit;
+	font-size: 16px;	
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	left: 320px;
+}
+.legenda input {
+	width: 40px;	
+	margin-left: 2px;	
+}
+.legenda1 ul li p{
+	top:200px;
+	display: inline-block;	
+}
+.legendas1 ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 40px;	
+	
+}
+.produtos2 {
+	border-radius: 5px;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.produtos2 div img {
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+	align-items: center;
+	display: inline-block;
+	padding-left: 40px;
+}
+
+.botao {
+	width: 366px;
+	height: 212px;
+	position: absolute;
+	align-items: center;
+	top: 400px;
+	text-align: center;
+
+}
+
+.botao-proximo {
+	color: rgba(78.00000295042992, 49.00000087916851, 35.00000171363354, 1);
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	left: 600px;
+	top: 550px;
+	font-family: Hind Siliguri;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0;
+	box-shadow: 8px 8px 30px rgba(255, 250, 250);
+	background-color: rgba(232, 216, 183, 0.79);
+	border: 1px solid rgba(253.0000001192093, 176.00000470876694, 24.000000469386578, 1);
+	border-radius: 12px;
+}
+/*rodapé*/
+
+.footer {
+    display:flexbox;
+    padding-left: 30px;
+    align-items: center;
+    position:absolute;
+    margin-top: 350px;    
+    font-family:Hind Siliguri;	 
+	 
+}
+.direitos{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: -35px;
+}
+.direitos a{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: -5px;
+}
+.direitos a:hover{
+    color: #4e3123;
+    align-items: center;    
+    font-family:Hind Siliguri;
+    font-size:8px;
+    text-align: center;
+    margin-left: -5px;
+}
+.footer-links li {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+.footer-links ul {
+    display: flex;    
+    text-align: center;
+    align-items: center;
+}
+.footer-links ul li a {
+    margin-right: 30px;
+    margin-left: 170px;
+    margin-top: 20px;
+    display: flex;
+    color: #4e3123;    
+    text-transform: uppercase;
+    font-family:Hind Siliguri;
+    font-size:15px;
+    letter-spacing: 0.15em;
+    text-align: center;   
+}
+.termos{
+    text-align: center;  
+    margin-left: 270px;
+    margin-top: -90px;
+}
+.sobre {
+    text-align: center;  
+    margin-left: 326px;
+    margin-top: -90px;   
+}
+.contato {
+    text-align: center;  
+    margin-left: 150px;
+    margin-top: -90px;   
+}
